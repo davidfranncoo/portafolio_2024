@@ -1,0 +1,23 @@
+.menu{
+    background-color: #8dcbf256;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    padding: 1em;
+    top:0;
+    right:0;
+    width: 100%;
+}
+.brand{
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 0.5em;
+    margin-left: 0.5em;
+    z-index: 1;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
