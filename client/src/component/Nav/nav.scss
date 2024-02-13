@@ -2,7 +2,7 @@
     background-color: #8dcbf256;
     display: flex;
     justify-content: flex-end;
-    position: relative;
+    position: fixed;
     padding: 1em;
     top:0;
     right:0;
@@ -102,4 +102,12 @@ ul {
 }
 .btn-43:hover .old {
   opacity: 0;
+}
+
+
+@media screen and (min-width: 1600px){
+  .old, .new {
+    font-size: 50px;
+  }
+  
 }

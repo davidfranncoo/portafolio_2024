@@ -39,7 +39,7 @@ export default function Home() {
           <div className="div_buttom">
            
             
-            <button className="btn-5"><span>Descarga CV</span></button>
+            <button className="btn-5"><span>Descargar CV</span></button>
           </div>
         </div>
         <div
@@ -56,5 +56,6 @@ export default function Home() {
       
       </div>
     </div>
+        
   );
 }
