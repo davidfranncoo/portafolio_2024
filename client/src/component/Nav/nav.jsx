@@ -11,11 +11,23 @@ export default function Nav(){
     
 <ul className="menu"  id="menu">
                    
-                    <li><a className="a" href="#inicio">Inicio</a></li>
-                    <li><a className="a" href="#Sobre_mí">Sobre mí</a></li>    
-                    <li><a className="a" href="#herramientas">Herramientas</a></li>
-                    <li><a className="a" href="#proyecto">Proyectos</a></li>
-                    <li><a clasNames="a" href="#contacto">Contacto</a></li>    
+                    
+                    <button className="btn-43">
+  <span className="old">Inicio</span>
+  <span className="new">Inicio</span>
+</button>  
+<button className="btn-43">
+  <span className="old">Sobre mi</span>
+  <span className="new">Sobre mi</span>
+</button>  
+<button className="btn-43">
+  <span className="old">Herramientas</span>
+  <span className="new">Herramientas</span>
+</button>  <button className="btn-43">
+  <span className="old">Proyectos</span>
+  <span className="new">Proyectos</span>
+</button>  
+ 
                 </ul>
     
     </nav>

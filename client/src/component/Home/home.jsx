@@ -34,12 +34,12 @@ export default function Home() {
           <div className="box_description" />
           <h2 className="box_h2">Hola! me llamo </h2>
           <h1 className="box_name">Franco Segovia</h1>
- 
+        <span className="box_span"> Desarrollador Full-Stack</span>
 
           <div className="div_buttom">
-            <a download href="">
-              <button class="box_buttom">Descarga CV</button>
-            </a>
+           
+            
+            <button className="btn-5"><span>Descarga CV</span></button>
           </div>
         </div>
         <div
@@ -53,8 +53,7 @@ export default function Home() {
         <img src={mifoto} alt =""/>
         </div>
 
-         {/* <div class="box_img">
-                </div>  */}
+      
       </div>
     </div>
   );
