@@ -2,11 +2,12 @@
     background-color: #8dcbf256;
     display: flex;
     justify-content: flex-end;
-    position: fixed;
+    position: relative;
     padding: 1em;
     top:0;
     right:0;
     width: 100%;
+    
 }
 .brand{
     position: fixed;
@@ -16,7 +17,12 @@
     margin-left: 0.5em;
     z-index: 1;
 }
+a{
+    margin:1rem;
+    color: rgb(184, 228, 255);
+}
 ul {
+
     display: flex;
     justify-content: space-between;
     list-style: none;

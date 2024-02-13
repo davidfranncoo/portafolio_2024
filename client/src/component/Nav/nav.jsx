@@ -1,9 +1,12 @@
 import React from "react";
-import "./nav.css"
+import "./nav.scss"
 export default function Nav(){
 
 
-    return (<nav className="Brand">
+    return (
+        <div>
+
+    <nav className="Brand">
 
     
 <ul className="menu"  id="menu">
@@ -15,5 +18,7 @@ export default function Nav(){
                     <li><a clasNames="a" href="#contacto">Contacto</a></li>    
                 </ul>
     
-    </nav>)
+    </nav>
+        </div>
+    )
 }
