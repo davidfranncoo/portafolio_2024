@@ -1,6 +1,8 @@
-import React, { useEffect, useState } from "react";
-import mifoto from "../../Img/WhatsApp\ Image\ 2023-04-26\ at\ 11.00.37-fotor-bg-remover-2023062223038.png"
+import React, { useState } from "react";
+import mifoto from "../../Img/WhatsApp Image 2023-04-26 at 11.00.37-fotor-bg-remover-2023062223038.png"
 import Nav from "../Nav/nav";
+import Aboutme from "../AboutMe/aboutme"
+import Herramienta from "../Herramientas.js/herramienta";
 import "./home.scss";
 
 export default function Home() {
@@ -25,7 +27,8 @@ export default function Home() {
   }
 
 
-  return (
+  return (<div>
+
     <div className="home_inicio">
       <Nav />
 
@@ -56,6 +59,9 @@ export default function Home() {
       
       </div>
     </div>
+      <Aboutme/>
+      <Herramienta/>
+            </div>
         
   );
 }

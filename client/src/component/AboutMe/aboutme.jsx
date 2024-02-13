@@ -1,12 +1,13 @@
 import React from "react";
+import "./aboutme.scss"
 
-export default function Nav(){
+export default function Aboutme(){
 
 
-    return (<>
+    return (<div className="box_aboutme">
 
     
-    <h1>sobre mi</h1>
+    <h1>soporta mi ciela </h1>
     
-    </>)
+    </div>)
 }

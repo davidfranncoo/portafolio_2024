@@ -79,6 +79,7 @@ ul {
 .btn-43 .new,
 .btn-43 .old {
   font-weight: 900;
+  font-size: 25px;
 }
 .btn-43 .new {
   background: #8DCBF2;
@@ -108,6 +109,12 @@ ul {
 @media screen and (min-width: 1600px){
   .old, .new {
     font-size: 50px;
+  }
+  
+}
+@media screen and (max-width: 900px){
+  .old, .new {
+    display: none;
   }
   
 }
