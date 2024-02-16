@@ -7,7 +7,7 @@ export default function Herramienta(){
     return (<div className="box_herramienta">
 
     
-    <h1>herramienta</h1>
+    <h2>herramienta</h2>
     
     </div>)
 }

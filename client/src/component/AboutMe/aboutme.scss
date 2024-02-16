@@ -1,4 +1,46 @@
 .box_aboutme{
-    height: 100vh;
-    background-color: #BAAABA;
+   
+    background: linear-gradient(to bottom, rgb(21, 21, 21), rgb(49, 49, 49));
+}
+.aboutme_name{
+    display: flex;
+    justify-content: space-around;
+}
+.aboutme_name h1 {
+    font-size: 3rem;
+    color: #f24464;
+    
+  }
+.aboutme_info{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutme_info div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.aboutme_description{
+    h2{
+        
+        color: #f24464  ;
+    }
+    h3{
+        span{
+            color:#93D4FC;
+        }
+        font-family: 'Mulish', sans-serif;
+        font-weight: 100;
+    }
+    
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    color:aliceblue;
+}
+.gif2{
+    width: 40%;
+    height: auto;
 }
