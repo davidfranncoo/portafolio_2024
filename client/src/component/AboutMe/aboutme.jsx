@@ -1,6 +1,6 @@
 import React from "react";
 import gif1 from "../../Img/gif1.gif";
-import gif2 from "../../Img/gif2.gif";
+import gif3 from "../../Img/gif3.gif";
 
 import "./aboutme.scss";
 
@@ -34,7 +34,7 @@ export default function Aboutme() {
               resolver cualquier problema que pueda surgir en futuros <span>proyectos. </span>"
             </h3>
           </div>
-          <img className="gif2" src={gif2} alt="Descripción del GIF" />
+          <img className="gif2" src={gif3} alt="Descripción del GIF" />
         </div>
       </div>
     </div>

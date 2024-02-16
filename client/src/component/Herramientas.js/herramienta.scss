@@ -1,4 +1,29 @@
-.box_herramienta{
-    height: 100vh;
-    background-color: aqua;
+.box_herramienta {
+  background: linear-gradient(to bottom, rgb(21, 21, 21), rgb(49, 49, 49));
+  padding: 5rem 10rem 10em 10rem;
+  div {
+    
+    width: 100%;
+    justify-content: center;
+  }
+  h2 {
+    padding-bottom: 5rem;
+    font-size: 3rem;
+    color: #f24464;
+  }
+}
+.herramientas_img {
+  flex-wrap: wrap;
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(7em, 1fr));
+  gap: 2rem;
+  border-radius: 1rem;
+  background-image: url("../../Img/fonfogeometrico.jpg");
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  box-shadow: 10px 10px 20px rgb(0, 0, 0);
+  
 }

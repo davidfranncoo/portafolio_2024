@@ -4,6 +4,9 @@ import Nav from "../Nav/nav";
 import Aboutme from "../AboutMe/aboutme"
 import Herramienta from "../Herramientas.js/herramienta";
 import "./home.scss";
+import Proyects from "../Proyect/proyect.jsx";
+import Contact from "../Contacto/contact.jsx";
+import Footer from "../Footer/footer.jsx";
 
 export default function Home() {
   const [perspective, setPerspective] = useState(
@@ -61,6 +64,9 @@ export default function Home() {
     </div>
       <Aboutme/>
       <Herramienta/>
+      <Proyects/>
+      <Contact/>
+      <Footer/>
             </div>
         
   );
