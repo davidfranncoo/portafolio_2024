@@ -5,9 +5,13 @@ export default function Proyects(){
 
 
     return (<div className="box_proyectos">
+<div className="div_proyect">
 
     
-    <h1>proyecto</h1>
+   <div className="book"><span>putis</span>
+   <div className="cover"><span>SOFIA</span></div>
+   </div>
+</div>
     
     </div>)
 }
