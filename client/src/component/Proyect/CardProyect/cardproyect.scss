@@ -1,0 +1,66 @@
+
+.book{
+   
+    position: relative;
+    border-radius: 10px;
+    width: 12rem;
+    height: 17rem;
+   background-color: #554e4e;
+    box-shadow: 1px 1px
+    12px #000;
+    perspective: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.book_dexcription{
+    margin: 0rem 1rem 0rem 1rem;
+    h4{
+        color: #fff;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 0.8rem;
+    }
+    h5{
+        color: #fff;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 100;
+        border: 1px solid #dcdcdc;
+        font-size: 0.7rem;
+    }
+}
+.cover{
+
+    top:0;
+    position: absolute;
+    background: linear-gradient(to bottom, rgb(110, 33, 47), rgb(242, 68, 100));
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: all 0.5s;
+   box-shadow: 1px 1px
+   12px #000;
+   display: flex;
+   flex-direction: column;
+
+   align-items: center;
+   justify-content: center;
+   
+
+h1{
+    font-size: 20px;
+}
+}
+.img_proyect{
+    width: 100%;
+    height: auto; 
+    border-radius: 10px;
+
+}
+.book:hover .cover{
+    transition: all 0.5s;
+    transform: rotateY(-80deg);
+    transform-origin: left center;
+}
