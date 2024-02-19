@@ -1,5 +1,5 @@
 .menu{
-    background-color: #8dcbf256;
+    background-color: #4e7995dc;
     display: flex;
     justify-content: flex-end;
     position: fixed;
@@ -7,15 +7,16 @@
     top:0;
     right:0;
     width: 100%;
+    z-index: 3;
     
 }
 .brand{
-    position: fixed;
+    position: absolute;
     left: 0;
     top: 0;
     padding: 0.5em;
     margin-left: 0.5em;
-    z-index: 999;
+    z-index: 3;
 }
 a{
     margin:1rem;
