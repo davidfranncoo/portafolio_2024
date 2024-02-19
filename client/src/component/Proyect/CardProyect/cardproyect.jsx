@@ -20,7 +20,7 @@ export default function CardProyect({
 
 
   return (
-    <div>
+    
       <div className="book">
         <div className="book_dexcription">
           <h4 >Descripción</h4>
@@ -46,7 +46,7 @@ export default function CardProyect({
           <h1>{name}</h1>
           <h6>{subtitulo}</h6>
         </div>
-      </div>
+      
     </div>
   );
 }

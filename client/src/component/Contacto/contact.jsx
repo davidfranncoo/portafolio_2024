@@ -3,7 +3,7 @@ import "./contact.scss";
 
 export default function Contact() {
   return (
-    <div className="">
+   
        <div id="contacto" className="contacto">
             <div className="main">
                <div className="img">
@@ -13,7 +13,7 @@ export default function Contact() {
                 // action="https://formsubmit.co/fancosegovia@gmail.com"
                 //  method="POST"
                  >
-                    <h1  className="text_inicio2">Contactame</h1>
+                    <h1  className="text_inicio2">CONTACTAME</h1>
                     <div className="fondo_contac">
                       <input 
                         className="input_name"
@@ -38,6 +38,6 @@ export default function Contact() {
                 </form>
         </div>
 </div>
-    </div>
+   
   );
 }

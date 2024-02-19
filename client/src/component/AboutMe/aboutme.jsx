@@ -21,20 +21,20 @@ export default function Aboutme() {
 
   const props = useSpring({
     opacity: 1,
-    transform: `scale(${scrollY == 0 ? 0.2 : 1})`,
+    transform: `scale(${scrollY === 0 ? 0.2 : 1})`,
     config: config.molasses,
   });
   return (
     <div className="box_aboutme">
       <div className="aboutme_name">
-        <h1>sobre mi </h1>
+        <h1>SOBRE MI </h1>
       </div>
       <div className="aboutme_info">
         <div>
           <img className="gif1 img_animation" src={gif1} alt="Descripción del GIF" />
           <div className="aboutme_description">
             <h2>Desarrollador Full-Stack</h2>
-            <animated.h3 style={props}>
+            <animated.h3 className="aboutme_h3" style={props}>
               "He estado adquiriendo experiencia en diversas herramientas de
               <span> programación.</span> Actualmente, estoy en busca de
               oportunidades profesionales para aplicar mis{" "}
