@@ -1,38 +1,50 @@
 import React from "react";
 import "./cardproyect.scss";
-import programared from "../../../Img/Proyectos/programared.png";
+
 
 export default function CardProyect({
   img,
   name,
+  subtitulo,
   description,
+  info,
   github,
   deploy,
 }) {
+  function hanlerDeploy(){
+    console.log("link deploy")
+  }
+  function hanlerGithub(){
+    console.log("link github")
+  }
+
+
   return (
     <div>
       <div className="book">
         <div className="book_dexcription">
-          <h4 >Descripcion</h4>
+          <h4 >Descripción</h4>
           <h5>
-            Red social responsiva en la cual podes interactua con otros
-            programadoras, cuenta con: crecion de ususario, interaccion entre
-            perfiles, pagos premium,<span>repostes </span> , entre otras.
+            {description}
           </h5>
        
         <h4>Herramientas</h4>
           <h5>
-            react * redux * socket io* posgrest* 
+          {info}
           </h5>
-        <button>deploy</button>
-        <button>github</button>
+          <div className="div_btn">
+
+        <button className="btn-book" onClick={hanlerDeploy()}>Deploy</button>
+        <button className="btn-book" onClick={hanlerGithub()}>Github</button>
+          </div>
         </div> 
        
 
         <div className="cover">
-          <img src={programared} className="img_proyect"></img>
-          <h1>PROGRAMARED</h1>
-          <h6>Red Social</h6>
+          <img src={img} className="img_proyect"></img>
+          
+          <h1>{name}</h1>
+          <h6>{subtitulo}</h6>
         </div>
       </div>
     </div>

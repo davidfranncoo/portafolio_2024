@@ -4,35 +4,35 @@ import "./contact.scss";
 export default function Contact() {
   return (
     <div className="">
-       <div id="contacto" class="contacto">
-            <div class="main">
-               <div class="img">
+       <div id="contacto" className="contacto">
+            <div className="main">
+               <div className="img">
 
                </div>
-                <form class="contacto_form" 
+                <form className="contacto_form" 
                 // action="https://formsubmit.co/fancosegovia@gmail.com"
                 //  method="POST"
                  >
-                    <h1  class="text_inicio2">Contactame</h1>
-                    <div class="fondo_contac">
+                    <h1  className="text_inicio2">Contactame</h1>
+                    <div className="fondo_contac">
                       <input 
-                        class="input_name"
+                        className="input_name"
                         type="text" 
                         name="name"
                         placeholder="Nombre"/>
                         <input 
-                        class="input_email"
+                        className="input_email"
                         type="email" 
                         name="email"
                         placeholder="Email"/>
                         <textarea 
-                        class="input_area" 
+                        className="input_area" 
                         type="text" 
                         name="text"
                         id="terea"
                         placeholder="Escribe tu mensaje aqui..."></textarea>
-                        <div class="button">   
-                            <button class="box_buttom2" type="submit" >Enviar</button>
+                        <div className="button">   
+                            <button className="btn-book" type="submit" >Enviar</button>
                         </div>
                     </div>
                 </form>
