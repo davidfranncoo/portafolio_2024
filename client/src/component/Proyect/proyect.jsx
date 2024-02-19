@@ -14,6 +14,8 @@ export default function Proyects() {
       name: "PROGRAMARED",
       subtitulo: "Red Social",
       img: programared,
+      github:"https://github.com/programared2023",
+      deploy:"https://front-programa-red.vercel.app/",
       description:
         "ProgramRes es una Red social (Responsive) para programadores que ofrece varias funciones como: Creación de usuarios, Interacción, Pagos premium, Reportes y diversas características para una experiencia completa.",
         info:"React | Redux | SocketIo | Posgrest | Pasarela de Pagos | Chatboot. ",
@@ -21,6 +23,8 @@ export default function Proyects() {
         name: "PAISES DEL MUNDO",
         subtitulo: "SPA",
         img: paises,
+        github:"https://github.com/davidfranncoo/countries",
+        deploy:"",
         description:
           "Es una aplicación web (no responsive) donde podrás realizar búsquedas por países, aplicar diversos filtros de ordenamiento y agregar actividades, con la posibilidad de aplicar filtros específicos a las mismas.",
           info:"Css | React | Redux | Express | PosgrestSQL .  ",
@@ -28,6 +32,8 @@ export default function Proyects() {
         name: "PORTAFOLIO (Básico)",
         subtitulo: "Landing Page",
         img: portafolio1,
+        github:"https://github.com/davidfranncoo/portafolio_franco/tree/main",
+        deploy:"portafolio-franco-tau.vercel.app",
         description:
           "Un portafolio (Responsivo) utilizando únicamente herramientas básicas, empleando exclusivamente CSS puro. Además, contiene animaciones y un formulario de contacto para mejorar la experiencia del usuario.",
           info:"Html | Css | JavaScript.  ",
@@ -35,6 +41,8 @@ export default function Proyects() {
         name: "LODE CALEB",
         subtitulo: "eCommerce",
         img: ecommerce,
+        github:"https://github.com/davidfranncoo/ReposteriaC",
+        deploy:"portafolio-franco-tau.vercel.app",
         description:
           "LODE CALEB: Dulces Creaciones es un eCommerce donde podrás explorar la diversidad de dulces disponibles, conocer los precios unitarios y por cantidades, añadir productos al carrito y completar tu compra.",
           info:"Boostrap | React | Redux | JWT | Express | PosgrestSQL.",
@@ -48,7 +56,7 @@ export default function Proyects() {
       </div>
       <div className="div_proyect">
     {data.map((e) => {
-        return <CardProyect name={e.name} subtitulo={e.subtitulo} img ={e.img} description={e.description} info={e.info} />;
+        return <CardProyect deploy={e.deploy} github={e.github}  name={e.name} subtitulo={e.subtitulo} img ={e.img} description={e.description} info={e.info} />;
     })}
     
 

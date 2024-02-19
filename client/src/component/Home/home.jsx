@@ -7,6 +7,7 @@ import "./home.scss";
 import Proyects from "../Proyect/proyect.jsx";
 import Contact from "../Contacto/contact.jsx";
 import Footer from "../Footer/footer.jsx";
+import pdf from "../../Img/FraSeg Cv.pdf"
 
 export default function Home() {
   const homeRef = useRef();
@@ -58,6 +59,14 @@ export default function Home() {
       aboutmeRef.current.scrollIntoView({ behavior: "smooth" });
     }
   }
+  function handleDescargarCV () {
+    const link = document.createElement('a');
+    link.href = pdf;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.download = 'FrancoSegovia_CV.pdf';
+    link.click();
+  };
 
   return (
     <div>
@@ -79,7 +88,7 @@ export default function Home() {
               <span className="box_span"> Desarrollador Full-Stack</span>
 
               <div className="div_buttom">
-                <button className="btn-5">
+                <button onClick={handleDescargarCV} className="btn-5">
                   <span>Descargar CV</span>
                 </button>
               </div>

@@ -10,8 +10,8 @@ export default function Contact() {
 
                </div>
                 <form className="contacto_form" 
-                // action="https://formsubmit.co/fancosegovia@gmail.com"
-                //  method="POST"
+                action="https://formsubmit.co/fancosegovia@gmail.com"
+                 method="POST"
                  >
                     <h1  className="text_inicio2">CONTACTAME</h1>
                     <div className="fondo_contac">

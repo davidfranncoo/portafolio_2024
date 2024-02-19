@@ -106,6 +106,35 @@ ul {
   opacity: 0;
 }
 
+/*-------------ESTO ES EL SANDICH----------*/
+.menu2 {
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  transition: height 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.show_menu2 {
+  height: 100px; /* Altura deseada cuando se muestra el menú */
+}
+
+.button_menu {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.h1_menu {
+  
+  color: #f4f480;
+  font-size: 50px;
+  margin-top: 10px;
+  display: none;
+}
+
+.show_menu2 div {
+  display: block;
+}
 
 @media screen and (min-width: 1600px){
   .old, .new {

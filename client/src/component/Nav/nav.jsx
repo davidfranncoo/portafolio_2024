@@ -1,12 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import "./nav.scss";
+
+
+
 export default function Nav({scrollToHome,scrollToContact,scrollToTools,scrollToProyects,scrollToAboutme}) {
- 
+  const [showMenu, setShowMenu] = useState(false);
+
+  function openClose(){
+    setShowMenu(!showMenu);
+  }; 
 
   return (
     <div>
+      {/* <div className={`menu1 ${showMenu ? 'show_menu2' : ''}`}>
+      <button id="open" style={{ display: showMenu ? 'none' : 'block' }} onClick={openClose}>
+        Open
+      </button>
+      <button id="close" style={{ display: showMenu ? 'block' : 'none' }} onClick={openClose}>
+        Close
+      </button>
+      <div className="h1_menu">
+
+      <h1 >ESTOYYYYYY</h1>
+      </div>
+    </div> */}
       <nav className="Brand">
         <ul className="menu" id="menu">
+          
           <button  onClick={scrollToHome}className="btn-43">
             <span  className="old">Inicio</span>
             <span className="new">Inicio</span>
