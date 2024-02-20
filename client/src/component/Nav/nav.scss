@@ -1,7 +1,8 @@
 .menu{
     background-color: #4e7995dc;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+  
     position:fixed;
     padding: 1em;
     top:0;
@@ -9,6 +10,9 @@
     width: 100%;
     z-index: 3;
     
+}
+.menu_buttoms{
+  display: flex;
 }
 .brand{
     position: absolute;
@@ -18,16 +22,22 @@
     margin-left: 0.5em;
     z-index: 3;
 }
-a{
-    margin:1rem;
-    color: rgb(184, 228, 255);
+.imgs_icons{
+  display: flex;
 }
-ul {
+.img_icono{
+  width: 35px;
+  margin: 3px 15px;
+  transition: all 0.2s;
+}
 
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
+.img_icono:hover{
+  transform: scale(1.2);
+  background-color: #8DCBF2;
+  border-radius: 5px;
+  border: 5px solid #8DCBF2;
 }
+
 //--------------------------------
 .btn-43,
 .btn-43 *,
@@ -116,6 +126,7 @@ ul {
 }
 
 .show_menu2 {
+  
   height: 100px; /* Altura deseada cuando se muestra el menú */
 }
 
@@ -123,12 +134,28 @@ ul {
   margin-bottom: 10px;
   cursor: pointer;
 }
-
+.button_open{
+  background-color: #4e7995dc;
+  border: none;
+}
+.button_close{
+  padding: 16px;
+  background-color: #4e7995dc;
+  border: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
 .h1_menu {
-  
-  color: #f4f480;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 50%;
+  background-color: #4e7995dc;
+ 
   font-size: 50px;
-  margin-top: 10px;
+ 
   display: none;
 }
 
@@ -136,15 +163,32 @@ ul {
   display: block;
 }
 
-@media screen and (min-width: 1600px){
-  .old, .new {
-    font-size: 50px;
-  }
-  
-}
-@media screen and (max-width: 900px){
-  .old, .new {
+
+ @media  (min-width: 1600px) {.menu1{
+  display: none;
+}}
+ @media (min-width: 1200px) and (min-width: 1599px ){
+  .menu1{
     display: none;
   }
- 
+ }
+ @media  (min-width: 900px) and (max-width: 1199px ){
+  .btn-43 .new,
+.btn-43 .old {
+  font-weight: 900;
+  font-size: 15px;
 }
+.menu1{
+  display: none;
+}
+ }
+ @media (max-width: 899px){
+  .menu_buttoms{
+    display: none;
+  }
+  .menu_buttoms_openclose{
+  
+    margin-top: 30%;
+    display: flex;
+  }
+ }
