@@ -162,27 +162,24 @@
 .show_menu2 div {
   display: block;
 }
-
-
- @media  (min-width: 1600px) {.menu1{
+.menu1{
   display: none;
-}}
- @media (min-width: 1200px) and (min-width: 1599px ){
-  .menu1{
-    display: none;
-  }
- }
+}
+
+ //@media  (min-width: 1600px) {}
+ //@media (min-width: 1200px) and (min-width: 1599px ){ }
  @media  (min-width: 900px) and (max-width: 1199px ){
   .btn-43 .new,
 .btn-43 .old {
   font-weight: 900;
   font-size: 15px;
 }
-.menu1{
-  display: none;
-}
+
  }
  @media (max-width: 899px){
+  .menu1{
+    display: block;
+  }
   .menu_buttoms{
     display: none;
   }
