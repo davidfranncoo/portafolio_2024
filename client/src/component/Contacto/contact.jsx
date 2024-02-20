@@ -33,6 +33,9 @@ export default function Contact() {
                         placeholder="Escribe tu mensaje aqui..."></textarea>
                         <div className="button">   
                             <button className="btn-book" type="submit" >Enviar</button>
+
+                        <input type="hidden" name="_next" value="portafolio-2024-franco.vercel.app"/>
+                        <input type="hidden" name="_captcha" value="false"/>
                         </div>
                     </div>
                 </form>
