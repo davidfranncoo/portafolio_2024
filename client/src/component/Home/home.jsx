@@ -7,7 +7,7 @@ import "./home.scss";
 import Proyects from "../Proyect/proyect.jsx";
 import Contact from "../Contacto/contact.jsx";
 import Footer from "../Footer/footer.jsx";
-import pdf from "../../Img/FraSeg Cv.pdf"
+import pdf from "../../Img/CV FRANCO SEGOVIA.pdf"
 
 export default function Home() {
   const homeRef = useRef();
