@@ -16,7 +16,7 @@ export default function Proyects() {
         subtitulo: "Landing Page",
         img: portafolio1,
         github:"https://github.com/davidfranncoo/portafolio_franco/tree/main",
-        deploy:"portafolio-franco-tau.vercel.app",
+        deploy:"https://portafolio-franco-tau.vercel.app/",
         description:
           "Un portafolio (Responsivo) utilizando únicamente herramientas básicas, empleando exclusivamente CSS puro. Además, contiene animaciones y un formulario de contacto para mejorar la experiencia del usuario.",
           info:"Html | Css | JavaScript.  ",
@@ -25,7 +25,7 @@ export default function Proyects() {
         subtitulo: "eCommerce",
         img: ecommerce,
         github:"https://github.com/davidfranncoo/ReposteriaC",
-        deploy:"portafolio-franco-tau.vercel.app",
+        deploy:"https://reposteria-c.vercel.app/",
         description:
           "LODE CALEB: Dulces Creaciones es un eCommerce donde podrás explorar la diversidad de dulces disponibles, conocer los precios unitarios y por cantidades, añadir productos al carrito y completar tu compra.",
           info:"Boostrap | React | Redux | JWT | Express | PosgrestSQL.",
@@ -34,7 +34,7 @@ export default function Proyects() {
         subtitulo: "pagina web",
         img: menu1,
         github:"https://github.com/davidfranncoo/menuR",
-        deploy:"https://menu-r.vercel.app/",
+        deploy:"https://menu-r-46kq.vercel.app/",
         description:
           "MENU para restaurante donde podras ver los precios de los productos y ademas poder buscar, lugar donde tambien estaran todas las redes sociales .",
           info:" Html | Css | JavaScript | React | ",
